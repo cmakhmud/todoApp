@@ -1,0 +1,178 @@
+.todoTxt{
+    font-size: 30px;
+    font-weight: bolder;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.darkAddButtons{
+  font-size: 30px;
+  font-weight: bolder;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 150px;
+}
+.darkTodoTxt{
+    color: #D3D3D4FF;
+    font-size: 30px;
+    font-weight: bolder;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.wrp{
+   height: 100vh;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.wrpDark{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #212121FF;
+}
+.wrapper{
+    margin: 0 auto;
+    width: 500px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.todoList{
+    width: 100%;
+    height: 90%;
+    overflow-y: scroll;
+}
+.addTxtWrp{
+    height:5%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.liCon{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.buttonCon{
+    width: 110px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.todoTxt a{
+   text-decoration: none;
+   color: white;
+}
+.todoTxt a:hover{
+    color: white;
+ }
+.btn-primary a{
+    color: white;
+    text-decoration: none;
+}
+.btn-primary a:hover{
+    color: white;
+    text-decoration: none;
+}
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+  }
+  
+  /* Hide default HTML checkbox */
+  .switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  
+  /* The slider */
+  .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #2196F3;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  .slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  input:checked + .slider {
+    background-color: #D3D3D4FF;
+  }
+  
+  input:focus + .slider {
+    box-shadow: 0 0 1px #2196F3;
+  }
+  
+  input:checked + .slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+  }
+  
+  /* Rounded sliders */
+  .slider.round {
+    border-radius: 34px;
+  }
+  
+  .slider.round:before {
+    border-radius: 50%;
+  }
+  .darkTodoList{
+    background-color: #374151FF;
+     width: 100%;
+    height: 90%;
+    overflow-y: scroll;
+  }
+  .drkLi{
+    color: #7F8793FF;
+  }
+  .darkLightMode{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    transition: background-color 1000ms linear;
+    background-color: white;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+  }
+  .ddarkLightMode{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    background-color: #111111FF;
+    color: white;
+    transition: background-color 1000ms linear;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+  }

@@ -1,0 +1,41 @@
+.spanE{
+    font-size: 12px;
+    padding: 3px;
+    color: red;
+}
+.span{
+    display: none;
+}
+.darkContainer{
+    width: 100%;
+    background-color: #212121FF;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn a{
+    color: white;
+    text-decoration: none;
+}
+.btn a:hover{
+    color: white;
+    text-decoration: none;
+}
+.darkTxt{
+    color: #7F8793FF;
+}
+.wrpButtons{
+    width: 130px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
